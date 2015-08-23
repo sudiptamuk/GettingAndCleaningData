@@ -84,3 +84,11 @@ row in the data frame.
 that represents a unique Subject, a unique Activity and unique Variable combination in each row.
 
 -----------------------------------------------------------------------------------------------
+
+Files used:
+
+R program File: UCI HAR Dataset\run_analysis.R
+Code Book File: CodeBookForVariables.txt
+Tidy Data Set File: TidyDataSet.txt
+
+------------------------------------------------------------------------------------------------
