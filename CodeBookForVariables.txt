@@ -1,0 +1,39 @@
+Variables used in run_analysis.R program file and their meaning:
+
+activity_labels_tb = The Activity levels read from activity_labels.txt file.
+no_of_activities = The number of Activities present(Count of rows in activity_labels.txt).
+meaningful_activity_labels_vec = Meaningful texts of the Activites.
+features = The features data read from "features.txt" file.
+features_vec = The actual features extracted from features variable.
+y_test_tb = Variable that holds data read from y_test.txt file.
+x_test_tb = Variable that holds data read from x_test.txt file.
+subject_test_tb = Variable that holds data from subject_test.txt file.
+y_test_activity = The actual activites extracted from y_test_tb variable.
+y_train_tb = Variable that holds data read from y_train.txt file.
+x_train_tb = Variable that holds data read from x_train.txt file.
+subject_train_tb = Variable that holds data read from subject_train.txt file.
+no_of_activities = Number of rows in Activity_labels_tb variable.
+y_train_activity = The actual activites extracted from y_train_tb variable.
+merged_data = The merged data set from test and train folder.
+merged_columns = The column names for all 561 + 2(Subject and Activity) variables.
+filtered_columns = The required columns that has standard deviation and mean(And Subject and Activity).
+selected_data = The full data set only for the filtered_Columns.
+meaningful_col_names = The meaningful text representation for selected columns.
+subjectVector = The sorted numeric subject vector for processing data for tidy data. 
+activityVector = The activity dataset to process merged data to tidy data.
+tidyData = The processed easy readable tidy data.
+---------------------------------------------------------------------------------------------------
+
+Column Names used in the TidyDataSet.txt file and their meaning:
+
+1. Subject: The subjects used in both test and training data. They are read from subject_test.txt
+and subject_train.txt.
+
+2. Activity: The activites used in the analysis. There are 6 activities in the activity_labels.txt
+file. They are translated in to reading friendly meaningful texts.
+
+3. Variable: The variables that are read from features.txt. They are translated into reading friendly
+meaningful texts.
+
+4. Mean: The mean of the variables for each subject and each activity comply with the idea of tidy data.
+------------------------------------------------------------------------------------------------------
